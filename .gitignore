@@ -1,0 +1,15 @@
+# Build outputs
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Local logs and captures
+logs/
+*.etl
+*.pcap
+*.pcapng
+
+# IDE
+.idea/
