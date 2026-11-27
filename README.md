@@ -78,8 +78,8 @@ dotnet run --project .\src\FortniteTrafficRuler\FortniteTrafficRuler.csproj
 - フロー分類と判定閾値
 - Wi-Fi / Ethernetの可用性監視
 - フロー単位の経路固定・フォールバック
-- WFPを使った必要最小限のリダイレクト/ポリシー制御を検討・実装
-- 失敗時に通信を壊さず制御を解除するフェイルセーフ
+- Fortnite起動中の自動経路制御は、アカウント安全性を優先して原則実装対象外
+- 将来再検討する場合も、Epicの公式情報と技術的リスクを確認するまで実装・有効化しない
 
 ### Phase 4 - UI・運用
 - 自動/監視のみ/手動モード
